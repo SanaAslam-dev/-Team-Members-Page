@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Members Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Meet Our Team</h1>
+      <p>We’re a group of creative minds building amazing digital experiences together.</p>
+    </div>
+  </header>
+
+  <!-- Team Section -->
+  <section class="team">
+    <div class="team-member" data-name="John Doe" data-role="Lead Developer" data-bio="Specializes in building scalable web applications and leading the tech team." data-image="images/member1.jpg">
+      <div class="image-container">
+        <img src="images/member1.jpg" alt="John Doe" />
+      </div>
+      <h3>John Doe</h3>
+      <p class="role">Lead Developer</p>
+      <p class="bio">Specializes in building scalable web applications and leading the tech team.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="team-member" data-name="Jane Smith" data-role="UI/UX Designer" data-bio="Passionate about creating user-friendly and visually appealing designs." data-image="images/member2.jpg">
+      <div class="image-container">
+        <img src="images/member2.jpg" alt="Jane Smith" />
+      </div>
+      <h3>Jane Smith</h3>
+      <p class="role">UI/UX Designer</p>
+      <p class="bio">Passionate about creating user-friendly and visually appealing designs.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="team-member" data-name="Robert Brown" data-role="Project Manager" data-bio="Ensures smooth workflow and successful delivery of projects on time." data-image="images/member3.jpg">
+      <div class="image-container">
+        <img src="images/member3.jpg" alt="Robert Brown" />
+      </div>
+      <h3>Robert Brown</h3>
+      <p class="role">Project Manager</p>
+      <p class="bio">Ensures smooth workflow and successful delivery of projects on time.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="team-member" data-name="Emily Johnson" data-role="QA Engineer" data-bio="Dedicated to testing and ensuring the highest product quality standards." data-image="images/member4.jpg">
+      <div class="image-container">
+        <img src="images/member4.jpg" alt="Emily Johnson" />
+      </div>
+      <h3>Emily Johnson</h3>
+      <p class="role">QA Engineer</p>
+      <p class="bio">Dedicated to testing and ensuring the highest product quality standards.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="profileModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" src="" alt="Profile Image">
+      <h2 id="modalName"></h2>
+      <p id="modalRole"></p>
+      <p id="modalBio"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
