@@ -23,7 +23,7 @@ README.md # Documentation
 ## ⚙️ Usage
 1. Clone or download the project  
    ```bash
-   git clone https://github.com/yourusername/meet-our-team.git
+   git clone https://github.com/SanaAslam-dev/-Team-Members-Page
 Open index.html in a browser.
 
 ## 📸 Screenshot
